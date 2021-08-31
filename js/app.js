@@ -8,5 +8,7 @@ $('.message .close')
 ;
 
 $("#button_AboutUs").click(function() {
-    $("#sidebar_AboutUs").sidebar('toggle');
+    $("#sidebar_AboutUs")
+    .sidebar('setting', 'transition', 'overlay')
+    .sidebar('toggle');
 });
