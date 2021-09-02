@@ -20,10 +20,6 @@
 
 	<body>
 
-
-
-
-
 		<!-- About Us Sidebar -->
 		<div class="ui vertical menu sidebar" id="sidebar_AboutUs">
 			<div class="header item">
@@ -54,13 +50,44 @@
 			</a>
 		</div>
 
+		<!-- Get Sidebar -->
+
+		<div class="ui top demo sidebar ui segment" id="sidebar_Get">
+			<div class="ui center aligned page grid">
+
+				<div class="one column row">
+					<div class="sixteen wide column">
+				  		<h1 class="ui header">Get Maginvox</h3>
+					</div>
+			  	</div>
+
+			  	<div class="three column divided row">
+
+					<div class="column">
+				  		<h2>Steam</h2>
+					</div>
+
+					<div class="column">
+				  		<h2>Epic Games</h2>
+					</div>
+
+					<div class="column">
+				  		<h2>Discord</h2>
+		
+					</div>
+
+			  	</div>
+			</div>
+		</div>
+
 		<div class="pusher">
 			<!-- Navigation bar menu -->
 			<div class="ui secondary inverted menu">
 				<div class="header item">Maginvox</div>
 				<a class="active item">Home</a>
-				<a class="item">Get</a>
+				<a class="item" id="button_Get">Get</a>
 				<a class="item" id="button_AboutUs">About Us</a>
+				<a class="item" id="button_Bugs">Bugs</a>
 			</div>
 
 			<!-- Under Construction -->
@@ -71,6 +98,15 @@
 
 			<canvas id="backgroundCanvas" class="fixed"></canvas>
 		</div>
-
+		
+		<div class="ui modal menu" id ="modal_Bugs">
+			<div class="header">Report Bugs</div>
+			<div class ="content">
+				<p class="lead">
+					Using GitHub's issues tab you can easily report bugs to us and they can be resolved.
+				</p>
+				<a class="ui primary button" href="https://github.com/cullvox/MaginvoxIssues">Report Bugs</a>
+			</div>
+		</div>
 	</body>
 </html>
